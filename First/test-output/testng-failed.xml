@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [RegressionTestQA]">
+  <parameter name="environment" value="UAT"/>
+  <parameter name="suitename" value="Smoke_Chrome"/>
+  <parameter name="browsertype" value="chrome"/>
+  <test name="SmokeTest(failed)">
+    <classes>
+      <class name="Mavenproject.First.Selenium2">
+        <methods>
+          <include name="gmailLogin"/>
+        </methods>
+      </class> <!-- Mavenproject.First.Selenium2 -->
+    </classes>
+  </test> <!-- SmokeTest(failed) -->
+</suite> <!-- Failed suite [RegressionTestQA] -->
